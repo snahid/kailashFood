@@ -1,0 +1,263 @@
+.contact-wrapper {
+    background-image: url('../assets/images/contact/Contact-Us.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 0;
+    margin-top: 105px;
+
+
+    @media(max-width: 1680px){
+        padding: 224px 0;
+    }
+    @media(max-width: 1600px){
+        padding: 198px 0;
+    }
+    @media(max-width: 1440px){
+        padding: 146px 0;
+    }
+    @media(max-width: 1366px){
+        padding: 121px 0;
+    }
+    @media(max-width: 1199px){
+        margin-top: 103px;
+    }
+    @media(max-width: 991px) {
+        margin-top: 101px;
+    }
+
+    @media(max-width: 767px) {
+        margin-top: 91px;
+        // padding-bottom: 20px;
+        // margin-top: 0;
+        padding: 40px 0 40px 0;
+    }
+
+    @media(max-width: 575px) {
+        margin-top: 80.5px;
+    }
+
+    @media(max-width: 480px) {
+        margin-top: 75px;
+    }
+
+    .contact-inner {
+        display: flex;
+        flex-direction: row;
+        padding-left: 350px;
+        @media(max-width: 991px){
+            padding-left: 0;
+        }
+        .address-map {
+            -webkit-box-shadow: 0px 0px 25px 0px rgba(50, 50, 50, 0.75);
+            -moz-box-shadow: 0px 0px 25px 0px rgba(50, 50, 50, 0.75);
+            box-shadow: 0px 0px 25px 0px rgba(50, 50, 50, 0.75);
+            position: absolute;
+            left: 0px;
+            top: 170px;
+            @media(max-width: 1199px){
+                left: -10px;
+                top: 150px;
+            }
+
+            @media(max-width: 991px){
+                max-width: 325px;
+                left: -80px;
+                top: 100px;
+            }
+            @media(max-width: 900px){
+                left: -20px;
+            }
+            @media(max-width: 767px){
+                left: 0;
+                top: 100%;
+                max-width: 100%;
+                display: none;
+            }
+
+            .address-inner-wrapper {
+                background-color: #ec1326;
+
+                h2 {
+                    color: #ffffff;
+                    font-size: 42px;
+                    font-family: $font;
+                    font-weight: bold;
+                    padding-top: 20px;
+                    padding-left: 30px;
+                    margin-bottom: 20px;
+                    @media(max-width: 1199px){
+                        font-size: 32px;
+                        margin-bottom: 15px;
+                    }
+                    @media(max-width: 991px){
+                        font-size: 30px;
+                        margin-bottom: 10px;
+                        padding-left: 15px;
+                    }
+                }
+
+                .address-icon-inner {
+                    display: flex;
+                    flex-direction: row;
+                    padding: 5px 29px;
+                    align-items: center;
+                    padding-bottom: 20px;
+                    @media(max-width: 991px){
+                        padding-bottom: 10px;
+                        padding: 5px 15px;
+                    }
+
+                    .icon {
+                        color: #ffffff;
+                        margin-right: 20px;
+                        @media(max-width: 991px){
+                            margin-right: 10px;
+                        }
+
+                        i {
+                            border: 2px solid #ffffff;
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            line-height: 25px;
+                            text-align: center;
+                            justify-content: center;
+                            @media(max-width: 991px){
+                                font-size: 12px;
+                                width: 24px;
+                                height: 24px;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+
+                    .address {
+                        p {
+                            color: #ffffff;
+                            font-size: 18px;
+                            margin: 0;
+
+                            @media(max-width: 1440px) {
+                                font-size: 16px;
+                            }
+                            @media(max-width: 991px){
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+            .map{
+               
+                @media(max-width: 991px){
+                    max-width: 325px !important;
+                }
+                
+            }
+        }
+
+        // Contact Form 
+        .contact-form {
+            background-color: #ffffff;
+            padding: 70px;
+            @media(max-width: 1199px){
+                padding: 60px;
+            }
+            @media(max-width: 991px){
+                padding: 20px;
+                max-width: 465px;
+               
+            }
+            @media(max-width: 900px){
+                max-width: 400px;
+            }
+            @media(max-width: 767px){
+                max-width: 100%;
+                border-radius: 3px;
+            }
+
+            h2 {
+                text-align: center;
+                color: #000000;
+                font-size: 42px;
+                font-weight: bold;
+                @media(max-width: 1199px){
+                    font-size: 32px;
+                }
+                @media(max-width: 991px){
+                    font-size: 30px;
+                }
+
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $font;
+                text-align: center;
+                @media(max-width: 991px){
+                    font-size: 13px;
+                    
+                }
+                br{
+                    @media(max-width: 991px){
+                       display: none;     
+                    }
+                }
+            }
+
+            .myform {
+                form {
+                    input {
+                        background-color: #e7e4e7;
+                        border: none;
+                        outline: none;
+                        color: #000000;
+                        font-family: $font;
+                        font-weight: 400;
+                        font-size: 14px;
+                    }
+
+                    textarea {
+                        background-color: #e7e4e7;
+                        border: none;
+                        outline: none;
+                        color: #000000;
+                        font-family: $font;
+                        font-weight: 400;
+                        font-size: 14px;
+                        resize: none;
+                    }
+
+                    .submit-btn {
+                        background-color: #ec1326;
+                        color: #ffffff;
+                        border: 0px transparent;
+                        font-size: 22px;
+                        font-weight: bold;
+                        font-family: $font;
+                        transition: 0.5s ease;
+                        border-radius: 30px;
+
+                        &:focus {
+                            border: none;
+                            outline: none;
+                        }
+                        &:hover{
+                            background-color: #680026;
+                        }
+                    }
+                }
+            }
+        }
+
+        // Contact Form 
+    }
+
+    .full-wrapper {
+        position: relative;
+        @media(max-width: 991px){
+            justify-content: end;
+        }
+    }
+}

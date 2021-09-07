@@ -1,0 +1,490 @@
+// Top 
+.serve-top{
+    min-height: 300px;
+}
+// Top 
+
+
+// Serve Top 
+.serve-top-section{
+    padding: 50px 0 50px 0px;
+    @media(max-width: 767px){
+      padding: 30px 0 30px 0;
+    }
+    .serve-top-inner{
+        padding: 0 40px;
+        @media(max-width: 991px){
+          padding: 0 0;
+        }
+        .top-left{
+            padding-top: 125px;
+            @media(max-width: 1199px){
+              padding-top: 80px;
+            }
+            @media(max-width: 991px){
+              padding-top: 40px;
+            }
+            @media(max-width: 767px){
+              padding-top: 0px;
+            }
+            h5{
+                color: #ec1326;
+                font-size: 20px;
+                font-family: $font;
+                font-weight: 400;
+                position: relative;
+                @media(max-width: 1199px){
+                  font-size: 18px;
+                }
+                &::after{
+                    position: absolute;
+                    width: 170px;
+                    height: 1px;
+                    content: "";
+                    background-color: #ec1326;
+                    left: 135px;
+                    top: 50%;
+                    @media(max-width: 1199px){
+                      width: 130px;
+                      left: 120px;
+                    }
+                }
+            }
+            h2{
+                color: #000000;
+                font-family: $font;
+                font-weight: bold;
+                font-size: 41px;
+                @media(max-width: 1199px){
+                    font-size: 32px;
+                }
+                @media(max-width: 991px){
+                  font-size: 30px;
+              }
+                
+            }
+            p{
+                color: #585858;
+                font-family: $font;
+                font-weight: 400;
+                font-size: 15px;
+                text-align: justify;
+                @media(max-width: 767px){
+                  font-size: 14px;
+                }
+            }
+        }
+        .top-right{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+// Serve Top
+
+// Retail Shop 
+.retail-shop-section{
+    .retail-shop-inner{
+        position: relative;
+        padding: 0 40px;
+        @media(max-width: 991px){
+          padding: 0 0;
+        }
+        .top{
+            img{
+                max-width: 660px;
+                @media(max-width: 1199px){
+                  max-width: 540px;
+                }
+                @media(max-width: 991px){
+                  max-width: 100%;
+                }
+            }
+        }
+        .bottom{
+            background-color: #ec1326;
+            padding: 30px;
+            max-width: 565px;
+            position: absolute;
+            content: "";
+            right: 30px;
+            top: 65px;
+            @media(max-width: 1199px){
+              max-width: 500px;
+              top: 25px;
+              right: 0;
+            }
+            @media(max-width: 991px){
+              left: 14%;
+              top: 70%;
+              -webkit-box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.40);
+              -moz-box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.40);
+              box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.40);
+            }
+            @media(max-width: 767px){
+              left: 0;
+              max-width: 100%;
+              padding: 15px;
+            
+            }
+            h5{
+                color: #ffffff;
+                font-size: 20px;
+                font-weight: 400;
+                font-family: $font;
+                position: relative;
+                @media(max-width: 1199px){
+                  font-size: 18px;
+                }
+                &::after{
+                    position: absolute;
+                    width: 190px;
+                    height: 1px;
+                    background-color: #ffffff;
+                    content: "";
+                    left: 60px;
+                    top: 50%;
+                    @media(max-width: 1199px){
+                      width: 130px;
+                    }
+                }
+            }
+            h2{
+                color: #ffffff;
+                font-weight: bold;
+                font-family: $font;
+                font-size: 41px;
+                @media(max-width: 1199px){
+                  font-size: 32px;
+                }
+                @media(max-width: 991px){
+                  font-size: 30px;
+                }
+            }
+            p{
+                color: #ffffff;
+                font-size: 15px;
+                font-weight: 400;
+                font-family: $font;
+                line-height: 28px;
+                margin-bottom: 30px;
+                @media(max-width: 1199px){
+                  line-height: 24px;
+                  font-size: 14px;
+                  text-align: justify;
+                }
+                @media(max-width: 991px){
+                  line-height: 20px;
+                  margin-bottom: 15px;
+                }
+            }
+            .know-more {
+                -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.19);
+                -moz-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.19);
+                box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.19);
+                background-color: #fde80e;
+                color: #ec1326;
+                font-weight: bold;
+                font-family: $montserrat;
+                padding: 10px 50px;
+                border-radius: 50px;
+                transition: 0.5s ease;
+                border: none;
+                font-size: 16px;
+                text-decoration: none;
+          
+                @media(max-width: 1680px) {
+                  padding: 10px 40px;
+                }
+          
+                @media(max-width: 1440px) {
+                  font-size: 15px;
+                  padding: 7px 30px;
+                  margin-bottom: 20px;
+                }
+          
+                @media(max-width: 1366px) {
+                  font-size: 14px;
+                  margin-bottom: 15px;
+                }
+          
+                @media(max-width: 768px) {
+                  font-size: 14px;
+                  padding: 5px 25px;
+                }
+          
+                @media(max-width: 650px) {
+                  padding: 5px 20px;
+                }
+          
+          
+                &:hover {
+                  background-color: #680026;
+                  color: #ffffff;
+                }
+              }
+        }
+    }
+}
+// Retail Shop
+
+// Cateting Section 
+.caterign-section{
+    background-image: url("../assets/images/serve/catering.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 290px 0;
+    margin: 70px 0;
+    // @media(max-width: 1680px){
+    //     padding: 129px 0;
+    //     margin: 60px 0;
+    // }
+    // @media(max-width: 1600px){
+    //     padding: 115px;
+    // }
+    // @media(max-width: 1440px){
+    //     padding: 89px 0;
+    // }
+    @media(max-width: 1366px){
+        padding: 220px 0;
+    }
+    @media(max-width: 1199px){
+      padding: 47px 0;
+      margin-bottom: 50px;
+    }
+    @media(max-width: 991px){
+      margin-top: 180px;
+      margin-bottom: 30px;
+    }
+    @media(max-width: 523px){
+      margin-top: 200px;
+    }
+    @media(max-width: 444px){
+      margin-top: 220px;
+    }
+    .catering-inner{
+        padding: 0 40px;
+        @media(max-width: 991px){
+          padding: 0 0;
+        }
+        .bottom{
+            background-color: #ec1326;
+            padding: 30px;
+            max-width: 565px;
+            @media(max-width: 767px){
+              padding: 15px;
+            
+            }
+            h5{
+                color: #ffffff;
+                font-size: 20px;
+                font-weight: 400;
+                font-family: $font;
+                position: relative;
+                @media(max-width: 1199px){
+                  font-size: 18px;
+                }
+                &::after{
+                    position: absolute;
+                    width: 190px;
+                    height: 1px;
+                    background-color: #ffffff;
+                    content: "";
+                    left: 135px;
+                    top: 50%;
+                    @media(max-width: 1199px){
+                      width: 130px;
+                    }
+                }
+            }
+            h2{
+                color: #ffffff;
+                font-weight: bold;
+                font-family: $font;
+                font-size: 41px;
+                @media(max-width: 1199px){
+                  font-size: 32px;
+                }
+                @media(max-width: 991px){
+                  font-size: 30px;
+                }
+            }
+            p{
+                color: #ffffff;
+                font-size: 15px;
+                font-weight: 400;
+                font-family: $font;
+                line-height: 28px;
+                margin-bottom: 30px;
+                @media(max-width: 1199px){
+                  line-height: 24px;
+                  font-size: 14px;
+                  text-align: justify;
+                }
+                @media(max-width: 991px){
+                  line-height: 20px;
+                  margin-bottom: 15px;
+                }
+            }
+            .know-more {
+                -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.19);
+                -moz-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.19);
+                box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.19);
+                background-color: #fde80e;
+                color: #ec1326;
+                font-weight: bold;
+                font-family: $montserrat;
+                padding: 10px 50px;
+                border-radius: 50px;
+                transition: 0.5s ease;
+                border: none;
+                font-size: 16px;
+                text-decoration: none;
+          
+                @media(max-width: 1680px) {
+                  padding: 10px 40px;
+                }
+          
+                @media(max-width: 1440px) {
+                  font-size: 15px;
+                  padding: 7px 30px;
+                  margin-bottom: 20px;
+                }
+          
+                @media(max-width: 1366px) {
+                  font-size: 14px;
+                  margin-bottom: 15px;
+                }
+          
+                @media(max-width: 768px) {
+                  font-size: 14px;
+                  padding: 5px 25px;
+                }
+          
+                @media(max-width: 650px) {
+                  padding: 5px 20px;
+                }
+          
+              
+          
+                &:hover {
+                  background-color: #680026;
+                  color: #ffffff;
+                }
+              }
+        }
+    }
+}
+// Cateting Section 
+
+// Restaurent Section 
+.restaurent-section{
+    .serve-top-section{
+        padding: 30px 0 100px 0px;
+        @media(max-width: 767px){
+          padding: 0px 0 50px 0;
+        }
+        .serve-top-inner{
+            padding: 0 40px;
+            .top-left{
+                padding-top: 30px;
+                h5{
+                    color: #ec1326;
+                    font-size: 20px;
+                    font-family: $font;
+                    font-weight: 400;
+                    position: relative;
+                    &::after{
+                        position: absolute;
+                        width: 170px;
+                        height: 1px;
+                        content: "";
+                        background-color: #ec1326;
+                        left: 135px;
+                        top: 50%;
+                    }
+                }
+                h2{
+                    color: #000000;
+                    font-family: $font;
+                    font-weight: bold;
+                    font-size: 41px;
+                }
+                p{
+                    color: #585858;
+                    font-family: $font;
+                    font-weight: 400;
+                    font-size: 15px;
+                    text-align: justify;
+                    margin-bottom: 35px;
+                    @media(max-width: 1199px){
+                      margin-bottom: 15px;
+                    }
+                }
+                .know-more {
+                    background-color: #fde80e;
+                    color: #ec1326;
+                    font-weight: bold;
+                    font-family: $montserrat;
+                    padding: 10px 50px;
+                    border-radius: 50px;
+                    transition: 0.5s ease;
+                    border: none;
+                    font-size: 16px;
+                    text-decoration: none;
+              
+                    @media(max-width: 1680px) {
+                      padding: 10px 40px;
+                    }
+              
+                    @media(max-width: 1440px) {
+                      font-size: 15px;
+                      padding: 7px 30px;
+                      margin-bottom: 20px;
+                    }
+              
+                    @media(max-width: 1366px) {
+                      font-size: 14px;
+                      margin-bottom: 15px;
+                    }
+              
+                    @media(max-width: 768px) {
+                      font-size: 14px;
+                      padding: 5px 25px;
+                    }
+              
+                    @media(max-width: 650px) {
+                      padding: 5px 20px;
+                    }
+              
+                    @media(max-width: 575px) {
+                      padding: 3px 15px;
+                    }
+              
+                    @media(max-width: 575px) {
+                      font-size: 12px;
+                      padding: 0px 15px;
+                    }
+              
+                    &:hover {
+                      background-color: #680026;
+                      color: #ffffff;
+                    }
+                  }
+            }
+            .top-right{
+              @media(max-width: 1199px){
+                padding-top: 90px;
+              }
+              @media(max-width: 767px){
+                padding-top: 30px;
+              }
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+// Restaurent Section 
