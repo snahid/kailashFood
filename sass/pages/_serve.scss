@@ -7,7 +7,13 @@
 
 // Serve Top 
 .serve-top-section{
-    padding: 50px 0 50px 0px;
+    padding: 70px 0 50px 0px;
+    @media(max-width: 1440px){
+      padding: 45px 0 35px 0;
+    }
+    @media(max-width: 1366px){
+      padding: 35px 0 25px 0;
+    }
     @media(max-width: 767px){
       padding: 30px 0 30px 0;
     }
@@ -85,6 +91,25 @@
 
 // Retail Shop 
 .retail-shop-section{
+  padding: 80px 0;
+  @media(max-width: 1440px){
+    padding: 60px 0;
+  }
+  @media(max-width: 1366px){
+    padding: 50px 0;
+  }
+  @media(max-width: 1280px){
+    padding: 40px 0;
+  }
+  @media(max-width: 1024px){
+    padding: 30px 0;
+  }
+  @media(max-width: 991px){
+    padding: 25px 0;
+  }
+  @media(max-width: 767px){
+    padding: 20px 0;
+  }
     .retail-shop-inner{
         position: relative;
         padding: 0 40px;
@@ -381,7 +406,22 @@
 // Restaurent Section 
 .restaurent-section{
     .serve-top-section{
-        padding: 30px 0 100px 0px;
+        padding: 100px 0 170px 0px;
+        @media(max-width: 1440px){
+          padding: 80px 0 150px 0;
+        }
+        @media(max-width: 1366px){
+          padding: 60px 0 120px 0;
+        }
+        @media(max-width: 1280px){
+          padding: 50px 0 100px 0;
+        }
+        @media(max-width: 1024px){
+          padding: 40px 0 80px 0;
+        }
+        @media(max-width: 991px){
+          padding: 30px 0 50px 0;
+        }
         @media(max-width: 767px){
           padding: 0px 0 50px 0;
         }

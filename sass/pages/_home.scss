@@ -199,10 +199,17 @@ body {
 
             @media(max-width: 1199px) {
               top: 38px;
+              width: 1000px;
+              left: -450px;
             }
 
             @media(max-width: 1100px) {
               width: 900px;
+            }
+            @media(max-width: 1050px) {
+              top: 38px;
+              width: 960px;
+              left: -430px;
             }
 
             &:hover {
@@ -224,6 +231,12 @@ body {
                   li {
                     // list-style: none;
                     padding: 0 0 10px 0;
+                    @media(max-wdith: 1199px){
+                      padding: 0 0 8px 0;
+                    }
+                    @media(max-wdith: 1100px){
+                      padding: 0 0 7px 0;
+                    }
 
                     &:last-child {
                       border-bottom: none;
@@ -1274,7 +1287,20 @@ body {
 
 // Brand Serve Section 
 .brand-serve-section {
-  padding: 80px 0 50px 0;
+  padding: 100px 0 70px 0;
+  @media(max-width: 1440px){
+    padding: 80px 0 50px;
+  }
+  @media(max-width: 1366px){
+    padding: 60px 0 40px;
+  }
+  @media(max-width: 1280px){
+    padding: 50px 0 30px;
+  }
+
+  @media(max-width: 1024px){
+    padding: 40px 0 20px;
+  }
 
   @media(max-width: 767px) {
     padding: 50px 0 30px 0;
@@ -1510,8 +1536,23 @@ body {
 
 // Our Distribution Network 
 .our-distribution {
-  padding-bottom: 50px;
-  padding-top: 40px;
+  padding-bottom: 80px;
+  padding-top: 60px;
+  @media(max-width: 1440px){
+    padding: 60px 0 40px 0;
+  }
+  @media(max-width: 1366px){
+    padding: 50px 0 30px 0;
+  }
+  @media(max-width: 1280px){
+    padding: 40px 0 30px 0;
+  }
+  @media(max-width: 1024px){
+    padding: 35px 0 25px 0;
+  }
+  @media(max-width: 991px){
+    padding: 30px 0 20px 0;
+  }
 
   @media(max-width: 767px) {
     padding-top: 10px;
@@ -1710,7 +1751,19 @@ body {
 
 // Our Brand 
 .our-brand-section {
-  padding: 40px 0 50px 0;
+  padding: 70px 0 140px 0;
+  @media(max-width: 1440px){
+    padding: 60px 0 100px 0;
+  }
+  @media(max-width: 1366px){
+    padding: 50px 0 90px 0;
+  }
+  @media(max-width: 1280px){
+    padding: 40px 0 80px 0;
+  }
+  @media(max-width: 1024px){
+    padding: 30px 0 60px 0;
+  }
 
   @media(max-width: 1199px) {
     padding: 0px 0px 50px 0;
@@ -1808,6 +1861,9 @@ body {
 
   .footer-left {
     .logo {
+      @media(max-width: 767px){
+        text-align: center;
+      }
       a {
         text-decoration: none;
 
@@ -1826,10 +1882,17 @@ body {
       @media(max-width: 1440px) {
         font-size: 14px;
       }
+      @media(max-width: 767px){
+        text-align: center;
+      }
     }
 
     .social-section {
       margin-top: 25px;
+      @media(max-width: 767px){
+        text-align: center;
+        
+      }
 
       a {
         text-decoration: none;
@@ -1840,6 +1903,12 @@ body {
         border: 1px solid #ffffff;
         transition: 0.5s ease;
 
+        @media(max-width: 767px){
+          text-align: center;
+          padding: 5px 7px;
+          
+        }
+
         &:hover {
           background-color: #ee2d25;
         }
@@ -1847,6 +1916,10 @@ body {
 
       .facebook {
         padding: 7px 12px;
+        @media(max-width: 767px){
+          padding: 5px 9px;
+          
+        }
       }
     }
   }
@@ -1868,6 +1941,9 @@ body {
         font-weight: bold;
         font-size: 22px;
         font-family: $font;
+        @media(max-width: 767px) {
+          font-size: 18px;
+        }
       }
 
       ul {
@@ -1901,6 +1977,9 @@ body {
         .address-box {
           display: flex;
           flex-direction: row;
+          @media(max-width: 767px){
+            justify-content: center;
+          }
 
           .left {
             margin-right: 10px;
@@ -1918,6 +1997,9 @@ body {
               @media(max-width: 1440px) {
                 font-size: 14px;
               }
+              @media(max-width: 767px) {
+                font-size: 13px;
+              }
             }
 
             a {
@@ -1931,9 +2013,18 @@ body {
               @media(max-width: 991px) {
                 word-break: break-word;
               }
+              @media(max-width: 767px) {
+                font-size: 13px;
+                text-align: center;
+              }
             }
           }
         }
+      }
+    }
+    .office{
+      @media(max-width: 767px){
+        text-align: center;
       }
     }
   }

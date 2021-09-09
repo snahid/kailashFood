@@ -140,7 +140,16 @@
 // About food 
 .about-food-section {
     margin-top: 1px;
-    padding: 100px 0;
+    padding: 130px 0;
+    @media(max-width: 1440px){
+        padding: 110px 0;
+    }
+    @media(max-width: 1366px){
+        padding: 100px 0;
+    }
+    @media(max-width: 1280px){
+        padding: 80px 0;
+    }
     @media(max-width: 1024px){
         padding: 50px 0;
     }
@@ -359,7 +368,19 @@
 
 // Team Section 
 .team-section {
-    padding-top: 40px;
+    padding-top: 110px;
+    @media(max-width: 1440px){
+        padding-top: 100px;
+    }
+    @media(max-width: 1366px){
+        padding-top: 90px;
+    }
+    @media(max-width: 1280px){
+        padding-top: 70px;
+    }
+    @media(max-width: 1199px){
+        padding-top: 50px;
+    }
     h5 {
         color: #ec1326;
         font-size: 22px;
@@ -506,7 +527,19 @@
     background-image: url('../assets/images/about/historybg.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 50px 0;
+    padding: 120px 0;
+    @media(max-width: 1440px){
+        padding: 100px 0;
+    }
+    @media(max-width: 1366px){
+        padding: 80px 0;
+    }
+    @media(max-width: 1280px){
+        padding: 60px 0;
+    }
+    @media(max-width: 1199px){
+        padding: 50px 0;
+    }
 
     h3 {
         text-align: center;
@@ -976,7 +1009,19 @@
 
 // Vision & Mission 
 .vision-and-mission {
-    padding: 50px 0 70px 0;
+    padding: 100px 0 140px 0;
+    @media(max-width: 1440px){
+        padding: 80px 0 120px 0;
+    }
+    @media(max-width: 1366px){
+        padding: 70px 0 100px 0;
+    }
+    @media(max-width: 1280px){
+        padding: 60px 0 80px 0;
+    }
+    @media(max-width: 1199px){
+        padding: 50px 0 60px 0;
+    }
     @media(max-width: 767px){
         padding: 40px 0 30px 0;
     }
@@ -1055,7 +1100,16 @@
 // Core Value 
 .core-value {
     background-color: #e2e2e2;
-    padding: 50px 0;
+    padding: 100px 0;
+    @media(max-width: 1440px){
+        padding: 80px 0;
+    }
+    @media(max-width: 1366px){
+        padding: 60px 0;
+    }
+    @media(max-width: 1280px){
+        padding: 50px 0;
+    }
 
     h2 {
         color: #000000;
