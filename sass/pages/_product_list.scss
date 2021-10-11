@@ -244,7 +244,7 @@
     .list-right {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         @media(max-width: 991px){
             display: unset;
         }
@@ -252,6 +252,7 @@
             display: flex;
             margin-top: 30px;
             justify-content: space-between;
+            flex-wrap: wrap;
         }
         .left {
             @media(max-width: 991px){
@@ -298,6 +299,9 @@
         }
 
         .right {
+            @media(max-width: 400px){
+                margin-top: 7px;
+            }
 
             ul {
                 list-style: none;
